@@ -19,7 +19,14 @@ This data included the following files for a test and training data set:
 
 Accelerometer data comprises triaxial acceleration, triaxial Angular velocity, time and frequency, activity, and an identifier of the subject who carried out the experiment. Features are normalized and bounded within [-1,1] 
 
-##Variables
-
 ##Transformations
+Accelerometer data from training and testing phases of the experiment were merged into a single data set.  This data set was subsetted for varibales that measures mean and standard deviations of a variable meaured in the experiment.  Afterwards the average of each substetted variable for each activity and each subject was calculated.
+
+##Variables
+The following a r data frames created to clean the accelerometer data:
+* valsTrain:
+* valsTest
+* allValues
+* allValuesMeanStdev:
+* aggData:
 
