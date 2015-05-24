@@ -4,11 +4,11 @@ Within this repository there is a r script (run_analysis.R) that uses accelerome
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The r script run_analysis.R processes the accelerometer data using the following steps to produce an aggregated, clean dataset:
-1. Merge datasets (training and the test) to create one data set.
-2. Extracts only the measurements on the mean and standard deviation for each measurement. 
-3. Add descriptive activity names to name the activities in the data set
-4. Appropriately labels the data set with descriptive variable names. 
-5. Create a tidy data set with the average of each variable for each activity and each subject.
+* Merge datasets (training and the test) to create one data set.
+* Extracts only the measurements on the mean and standard deviation for each measurement. 
+* Add descriptive activity names to name the activities in the data set
+* Appropriately labels the data set with descriptive variable names. 
+* Create a tidy data set with the average of each variable for each activity and each subject.
 
-The ouput from the r script is a comma delimited text file.
+The ouput from the r script is a comma delimited text file (aggData.txt) with the average of each variable for each activity and each subject.  Additionally enclosed in this repository is a codebook (CodeBook.md) that describes the variables, the data, and transformations performed to clean up the data.
 
