@@ -2,8 +2,6 @@
 
 This codebook (CodeBook.md) describes the variables, the data, and transformations performed to clean up the data.
 
-Was code book submitted to GitHub that modifies and updates the codebooks available to you with the data to indicate all the variables and summaries you calculated, along with units, and any other relevant information?
-
 ##Data
 The original accelerometers data from the Samsung Galaxy S smartphones was acquired from: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
