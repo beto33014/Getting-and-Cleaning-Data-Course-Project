@@ -2,9 +2,9 @@
 
 This codebook (CodeBook.md) describes the variables, the data, and transformations performed to clean up the data.
 
-#Data
+##Data
 
-#Variables
+##Variables
 
-#Transformations
+##Transformations
 
