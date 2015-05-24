@@ -21,7 +21,7 @@ Accelerometer data comprises triaxial acceleration, triaxial Angular velocity, t
 Accelerometer data from training and testing phases of the experiment were merged into a single data set.  This data set was subsetted for variables that measures mean and standard deviations of a variable measured in the experiment.  Afterwards the average of each substetted variable for each activity and each subject was calculated.
 
 ##Variables
-The following a r data frames created to clean the accelerometer data:
+The following a r data frames were created to clean the accelerometer data:
 * valsTrain: training accelerometer data with column heading, subject id and activity performed 
 * valsTest: test accelerometer data with column heading, subject id and activity performed 
 * allValues: merging of training and test data
